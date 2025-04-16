@@ -21,7 +21,7 @@ return require('packer').startup(function(use)
         end
     })
 
-    use ({
+    use (j{
         'aktersnurra/no-clown-fiesta.nvim',
         as = 'no-clown-fiestaaterial',
         config = function ()
@@ -72,13 +72,13 @@ return require('packer').startup(function(use)
             {'hrsh7th/cmp-nvim-lua'},
 
             {'L3MON4D3/LuaSnip'},
+
             {'rafamadriz/friendly-snippets'},
         }
     }
 
     use("theprimeagen/harpoon")
     use("eandrju/cellular-automaton.nvim")
-    use("github/copilot.vim")
-
+    -- use("github/copilot.vim")
 end)
 

@@ -34,7 +34,7 @@ require('mason').setup({})
 require('mason-lspconfig').setup({
     -- Replace the language servers listed here 
     -- with the ones you want to install
-    ensure_installed = {'ruby-lsp', 'gopls', 'clangd', 'lua_ls', 'solargraph' },
+    ensure_installed = {'ruby-lsp', 'lua_ls', 'solargraph' },
     handlers = {
         function(server_name)
             require('lspconfig')[server_name].setup({})

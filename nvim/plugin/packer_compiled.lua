@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/gustavo.pinheiro/.cache/nvim/packer_hererocks/2.1.1736781742/share/lua/5.1/?.lua;/Users/gustavo.pinheiro/.cache/nvim/packer_hererocks/2.1.1736781742/share/lua/5.1/?/init.lua;/Users/gustavo.pinheiro/.cache/nvim/packer_hererocks/2.1.1736781742/lib/luarocks/rocks-5.1/?.lua;/Users/gustavo.pinheiro/.cache/nvim/packer_hererocks/2.1.1736781742/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/gustavo.pinheiro/.cache/nvim/packer_hererocks/2.1.1736781742/lib/lua/5.1/?.so"
+local package_path_str = "/Users/gustavopinheiro/.cache/nvim/packer_hererocks/2.1.1744014795/share/lua/5.1/?.lua;/Users/gustavopinheiro/.cache/nvim/packer_hererocks/2.1.1744014795/share/lua/5.1/?/init.lua;/Users/gustavopinheiro/.cache/nvim/packer_hererocks/2.1.1744014795/lib/luarocks/rocks-5.1/?.lua;/Users/gustavopinheiro/.cache/nvim/packer_hererocks/2.1.1744014795/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/gustavopinheiro/.cache/nvim/packer_hererocks/2.1.1744014795/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,136 +76,131 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   LuaSnip = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["cellular-automaton.nvim"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/cellular-automaton.nvim",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/cellular-automaton.nvim",
     url = "https://github.com/eandrju/cellular-automaton.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-nvim-lua"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
     url = "https://github.com/hrsh7th/cmp-nvim-lua"
   },
   ["cmp-path"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/cmp-path",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
   cmp_luasnip = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
-  },
-  ["copilot.vim"] = {
-    loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/copilot.vim",
-    url = "https://github.com/github/copilot.vim"
   },
   dracula = {
     config = { "\27LJ\2\n7\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\24colorscheme dracula\bcmd\bvim\0" },
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/dracula",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/dracula",
     url = "https://github.com/Mofiqul/dracula.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
   harpoon = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/harpoon",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["no-clown-fiestaaterial"] = {
     config = { "\27LJ\2\n?\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0 colorscheme no-clown-fiesta\bcmd\bvim\0" },
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/no-clown-fiestaaterial",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/no-clown-fiestaaterial",
     url = "https://github.com/aktersnurra/no-clown-fiesta.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
     config = { "\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14nvim-tree\frequire\0" },
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-treesitter-context"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/nvim-treesitter-context",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/nvim-treesitter-context",
     url = "https://github.com/nvim-treesitter/nvim-treesitter-context"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["rose-pine"] = {
     config = { "\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0" },
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/rose-pine",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-fugitive"] = {
     loaded = true,
-    path = "/Users/gustavo.pinheiro/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    path = "/Users/gustavopinheiro/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   }
 }
@@ -215,6 +210,10 @@ time([[Defining packer_plugins]], false)
 time([[Config for no-clown-fiestaaterial]], true)
 try_loadstring("\27LJ\2\n?\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0 colorscheme no-clown-fiesta\bcmd\bvim\0", "config", "no-clown-fiestaaterial")
 time([[Config for no-clown-fiestaaterial]], false)
+-- Config for: dracula
+time([[Config for dracula]], true)
+try_loadstring("\27LJ\2\n7\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\24colorscheme dracula\bcmd\bvim\0", "config", "dracula")
+time([[Config for dracula]], false)
 -- Config for: rose-pine
 time([[Config for rose-pine]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")
@@ -223,10 +222,6 @@ time([[Config for rose-pine]], false)
 time([[Config for nvim-tree.lua]], true)
 try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14nvim-tree\frequire\0", "config", "nvim-tree.lua")
 time([[Config for nvim-tree.lua]], false)
--- Config for: dracula
-time([[Config for dracula]], true)
-try_loadstring("\27LJ\2\n7\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\24colorscheme dracula\bcmd\bvim\0", "config", "dracula")
-time([[Config for dracula]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
